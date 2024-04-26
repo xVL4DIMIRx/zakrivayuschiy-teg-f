@@ -132,7 +132,7 @@
 
 
 .card_content-section {
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     max-width: 700px;
     margin-inline: auto;
     display: grid;
@@ -140,6 +140,7 @@
 }
 
 .card_content {
+  background-color: var(--background-color);
   border: 2px solid var(--theme-color);
 }
 
@@ -177,6 +178,7 @@
   -webkit-text-stroke-color: #FFF;
   text-shadow: 0px 0px 5px var(--theme-color);
   opacity: 0.5;
+  z-index: 1;
 }
 
 .card-images {
