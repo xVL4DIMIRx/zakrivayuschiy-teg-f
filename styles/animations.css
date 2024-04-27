@@ -33,6 +33,12 @@
     transition: fill 0.3 linear;
 }
 
+
+.like-icon .contour {
+  transition-delay: 0s;
+  transition: fill 0.3s linear;
+}
+
 .like-icon.is-liked .contour {
     fill: var(--theme-color);
     transition: fill 0.3 linear;
@@ -78,12 +84,12 @@
   
 .like-icon .main-body {
     transition-delay: 0s;
-    transition: fill 0s linear;
+    transition: fill 0.3s linear;
 }
   
 .like-icon .core {
     transition-delay: 0s;
-    transition: fill 0s linear;
+    transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .sparks {

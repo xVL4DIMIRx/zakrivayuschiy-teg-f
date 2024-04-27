@@ -13,6 +13,8 @@
     --heart-filling-color: red;
     --heart-color: red;
     --heart-body-color: #00CC14;
+    --main-font: 'Inter-Variable';
+    --accent-font: 'PressStart2P';
     --background-image:
     repeating-linear-gradient(to right, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
     repeating-linear-gradient(to bottom, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
@@ -27,7 +29,9 @@
     --heart-filling-color: red;
     --heart-color: red;
     --heart-body-color: #000;
-    --background-image:
+    --main-font: 'Inter-Variable';
+    --accent-font: 'PressStart2P';
+    --background-image: 
     repeating-linear-gradient(to right, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
     linear-gradient(to bottom, #e7e7e7 .01%, #1a1a1a);
@@ -44,6 +48,8 @@
             --heart-filling-color: red;
             --heart-color: red;
             --heart-body-color: #00CC14;
+            --main-font: 'Inter-Variable';
+            --accent-font: 'PressStart2P';
             --background-image:
             repeating-linear-gradient(to right, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
             repeating-linear-gradient(to bottom, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
@@ -62,6 +68,8 @@
         --heart-filling-color: red;
         --heart-color: red;
         --heart-body-color: #000;
+        --main-font: 'Inter-Variable';
+        --accent-font: 'PressStart2P';
         --background-image:
         repeating-linear-gradient(to right, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
         repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
