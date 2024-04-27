@@ -159,12 +159,12 @@
   max-height: 700px;  
 }
 
-/* @supports(-webkit-text-stroke: 1px #FFF) {
+@supports(-webkit-text-stroke: 1px #FFF) {
   .image-text {
       -webkit-text-stroke: 1px #FFF;
       text-shadow: none;
   }
-}  */
+} 
 
 .image-text {
   font-family: var(--accent-font), sans-serif;
