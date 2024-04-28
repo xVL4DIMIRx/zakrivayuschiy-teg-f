@@ -148,9 +148,9 @@
  font-family: var(--main-font), sans-serif;
  color: var(--theme-color);
  font-size: 18px;
- font-weight: 700;
  padding: 5px 24px 4px 10px;
  line-height: 22px;
+ font-variation-settings: "wght" var(--wght-accent);
 }
 
 .image-container {
@@ -159,9 +159,9 @@
   max-height: 700px;  
 }
 
-@supports(-webkit-text-stroke: 1px #FFF) {
+@supports(-webkit-text-stroke: 1px var(--background-color)) {
   .image-text {
-      -webkit-text-stroke: 1px #FFF;
+      -webkit-text-stroke: 1px var(--background-color);
       text-shadow: none;
   }
 } 
@@ -175,7 +175,7 @@
   padding-block-start: 27px;
   mix-blend-mode: hard-light;
   color: var(--theme-color); 
-  -webkit-text-stroke-color: #FFF;
+  -webkit-text-stroke-color: var(--background-color);
   text-shadow: 0px 0px 5px var(--theme-color);
   opacity: 0.5;
   z-index: 1;
@@ -196,22 +196,23 @@
   font-family: var(--main-font), sans-serif;
   color: var(--theme-color);
   font-size: 18px;
-  font-weight: 400;
+  line-height: 21px;
   padding: 25px 25px 0;
+  font-variation-settings: "wght" var(--wght);
 }
 
 .card__icon-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 38px;
+  /* width: 44px; */
+  height: 34px;
   background-color: transparent;
   border: none;
   padding: 0;
-  outline: 2px solid;
+  outline: 2px solid currentColor;
   color: transparent;
-  transition: color 0.3s ease;
+  transition: outline-color 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -219,7 +220,7 @@
 }
 
 .card__icon-button:focus-visible {
-  color: var(--theme-color);
+  /* color: var(--theme-color); */
   outline: 2px solid var(--theme-color);
 }
 
@@ -239,7 +240,7 @@
   justify-content: center;
   border: none;
   background-color: var(--background-color);
-  outline: 2px solid var(--theme-color);
+  border: 2px solid var(--theme-color);
   font-family: var(--accent-font), sans-serif;
   overflow: hidden;
   position: relative;
@@ -287,7 +288,7 @@
 }
 
 .card__like-button {
-  width: 126px;
+  width: 130px;
   height: 38px;
   
 }

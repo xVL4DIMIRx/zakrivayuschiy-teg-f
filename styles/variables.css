@@ -9,6 +9,8 @@
     --heart-body-color: #000;
     --main-font: 'Inter-Variable';
     --accent-font: 'PressStart2P';
+    --wght: 400;
+    --wght-accent: 700;
     --background-image: 
     repeating-linear-gradient(to right, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
