@@ -40,6 +40,8 @@
 }
 
 .header__title-accent {
+  display: flex;
+  justify-content: center;
   font-size: clamp(3.0625rem, 1.921rem + 4.9231vw, 4.0625rem);
   padding-bottom: 20px;
   outline: none;
@@ -47,8 +49,6 @@
 
 .header_title {
   text-align: center;
-  display: flex;
-  flex-direction: column;
   font-size: clamp(0.875rem, 0.2329rem + 2.7692vw, 1.4375rem);
   padding-bottom: 25px;
 }
@@ -270,7 +270,7 @@
 }
 
 .button:focus-visible {
-  box-shadow: 2px 2px 0px 2px var(--theme-color);
+  box-shadow: 2px 2px 0 var(--theme-color);
 }
 
 .button__conteiner{
