@@ -40,7 +40,7 @@
 }
 
 .like-icon.is-liked .contour {
-    fill: var(--theme-color);
+    fill: var(--heart-color);
     transition: fill 0.3s linear;
     transition-delay: 0.06s;
 }
